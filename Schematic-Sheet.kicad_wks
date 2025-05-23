@@ -130,7 +130,7 @@
 		(start 110 12.5)
 		(end 2 12.5)
 	)
-	(tbtext "Title: ${TITLE}"
+	(tbtext "Title: ${TITLE}, Author:"
 		(name "")
 		(pos 109 10.7)
 		(font
@@ -6986,7 +6986,7 @@
 		(start 110.015 30.9702)
 		(end 199.931 30.9702)
 	)
-	(tbtext "Reviewers:"
+	(tbtext ""
 		(name "")
 		(pos 199.931 32.494)
 		(font bold)
@@ -7003,23 +7003,19 @@
 	)
 	(tbtext "Initial:"
 		(name "")
-		(pos 138.463 32.24)
+		(pos 138.717 35.0342)
 		(font bold)
 	)
 	(tbtext "Date:"
 		(name "")
-		(pos 127.541 32.24)
+		(pos 127.541 35.0342)
 		(font bold)
 	)
-	(tbtext "Author: "
+	(tbtext "Lead Engineer:"
 		(name "")
-		(pos 199.677 29.446)
+		(pos 199.931 29.4462)
 	)
-	(tbtext "Reviewer 1: "
-		(name "")
-		(pos 199.931 26.398)
-	)
-	(tbtext "Reviewer 2: "
+	(tbtext "Safety Officer:"
 		(name "")
 		(pos 199.931 23.35)
 	)
@@ -7041,5 +7037,17 @@
 		(name "")
 		(start 199.931 21.8262)
 		(end 110.015 21.8262)
+	)
+	(tbtext "Project Manager:\n"
+		(name "")
+		(pos 199.931 32.4942)
+	)
+	(tbtext "Subsystem Lead:"
+		(name "")
+		(pos 199.931 26.3982)
+	)
+	(tbtext "Text"
+		(name "")
+		(pos 0 0)
 	)
 )
